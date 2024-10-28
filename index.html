@@ -3,52 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV Site</title>
+    <title>Professional CV</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- Header Section -->
     <header>
-        <div class="profile-pic">
-            <img src="https://via.placeholder.com/150" alt="Profile Picture">
+        <div class="hero">
+            <h1>John Doe</h1>
+            <p>Web Developer & Designer</p>
+            <button onclick="scrollToSection('about')">Learn More</button>
         </div>
-        <h1>John Doe</h1>
-        <p>Web Developer | Designer</p>
     </header>
 
+    <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula purus non magna cursus, ut scelerisque nunc aliquet.</p>
+        <p>I am a passionate web developer with expertise in creating modern, responsive websites...</p>
     </section>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="experience-item">
-            <h3>Frontend Developer</h3>
-            <p>ABC Company, 2022 - Present</p>
-            <p>Developed responsive web applications using HTML, CSS, and JavaScript.</p>
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <h3>Project 1</h3>
+                <p>Description of Project 1</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Project 2</h3>
+                <p>Description of Project 2</p>
+            </div>
+            <!-- Add more projects as needed -->
         </div>
-        <div class="experience-item">
-            <h3>UI/UX Designer</h3>
-            <p>XYZ Studio, 2020 - 2022</p>
-            <p>Created user-friendly designs with a focus on aesthetics and usability.</p>
-        </div>
     </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML & CSS</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>Photoshop</li>
-            <li>UI/UX Design</li>
-        </ul>
-    </section>
-
+    <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me</h2>
         <p>Email: johndoe@example.com</p>
-        <p>Phone: +123 456 7890</p>
+        <div class="social-icons">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+        </div>
     </section>
 
     <footer>
