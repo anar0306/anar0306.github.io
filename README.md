@@ -1,9 +1,6 @@
-Below is the merged and improved version of the README file for your project. It integrates the structure and information from both previously provided drafts.
-
----
-
 # **anar0306.github.io**  
-Welcome to my personal website repository! This project showcases my journey as an **IT System Administrator** and **Junior Developer**. Through this platform, I aim to share my skills, projects, and insights, while continuously developing and improving the site.
+
+Welcome to my personal website repository! This project showcases my journey as an **IT System Administrator** and **Junior Software Engineer**. Through this platform, I aim to share my skills, projects, and insights, while continuously developing and improving the site.
 
 ---
 
