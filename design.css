@@ -136,7 +136,7 @@ nav::-webkit-scrollbar { display: none; }
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  border: 1px solid rgba(201,168,76,0.4);
+  border: 1px solid #97979761;
   padding: 6px 18px;
   border-radius: 100px;
   font-size: 0.78rem;
@@ -145,7 +145,7 @@ nav::-webkit-scrollbar { display: none; }
   color: var(--gold);
   margin-bottom: 40px;
   backdrop-filter: blur(4px);
-  background: rgba(201,168,76,0.08);
+  background: #c5c5c50f;
   animation: fadeUp 0.8s ease both;
 }
 
